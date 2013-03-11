@@ -1,7 +1,7 @@
 Mojolicious::Plugin::INIConfig
 
-L<Mojolicious::Plugin::INIConfig> is a INI configuration plugin that
-preprocesses its input with L<Mojo::Template>.
+Mojolicious::Plugin::INIConfig is a INI configuration plugin that
+preprocesses its input with Mojo::Template.
 
 Example
 
