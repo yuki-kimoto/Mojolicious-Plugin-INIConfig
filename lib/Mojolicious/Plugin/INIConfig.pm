@@ -4,7 +4,7 @@ use Config::Tiny;
 use File::Spec::Functions 'file_name_is_absolute';
 use Mojo::Util qw/encode decode slurp/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub parse {
   my ($self, $content, $file, $conf, $app) = @_;
@@ -90,9 +90,8 @@ sub render {
 Mojolicious::Plugin::INIConfig - Mojolicious Plugin to create routes automatically
 
 =head1 CAUTION
-=head1 NAME
 
-Mojolicious::Plugin::INIConfig - INI configuration plugin
+B<This module is alpha release. the feature will be changed without warnings.>
 
 =head1 SYNOPSIS
 
@@ -195,7 +194,7 @@ but if at least one person use the feature and tell me that thing
 I extend one year each time he tell me it.
 
 DEPRECATION warnings can be suppressed
-by C<MOJOLICIOUS_PLUGIN_INICONFIG_DEPRECATION>
+by C<MOJOLICIOUS_PLUGIN_INICONFIG_SUPPRESS_DEPRECATION>
 environment variable.
 
 EXPERIMENTAL features will be changed without warnings.
