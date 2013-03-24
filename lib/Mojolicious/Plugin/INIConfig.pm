@@ -4,7 +4,7 @@ use Config::Tiny;
 use File::Spec::Functions 'file_name_is_absolute';
 use Mojo::Util qw/encode decode slurp/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub parse {
   my ($self, $content, $file, $conf, $app) = @_;
