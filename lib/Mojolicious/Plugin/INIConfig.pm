@@ -2,9 +2,9 @@ package Mojolicious::Plugin::INIConfig;
 use Mojo::Base 'Mojolicious::Plugin::Config';
 use Config::Tiny;
 use File::Spec::Functions 'file_name_is_absolute';
-use Mojo::Util qw/encode decode slurp/;
+use Encode 'encode', 'decode';
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub parse {
   my ($self, $content, $file, $conf, $app) = @_;
