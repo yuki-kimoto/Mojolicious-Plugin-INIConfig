@@ -2,6 +2,8 @@
 \bCVS\b
 ^MANIFEST\.
 ^Makefile$
+^MYMETA.json$
+^MYMETA.yml$
 ^Build$
 ^Build.bat$
 ^_build/
